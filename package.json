@@ -1,0 +1,43 @@
+{
+  "name": "node-red-contrib-dynamorse-fitting",
+  "version": "0.0.1",
+  "description": "Dynamorse nodes for Node-RED that provide utilities for manipulating streams",
+  "author": "Streampunk Media Ltd",
+  "license": "Apache-2.0",
+  "keywords": [
+    "Node-RED"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "tape test/*Spec.js"
+  },
+  "node-red": {
+    "nodes": {
+      "drop": "nodes/10-drop.js",
+      "take": "nodes/12-take.js",
+      "doto": "nodes/20-doto.js",
+      "map": "nodes/22-map.js",
+      "filter": "nodes/24-filter.js",
+      "head": "nodes/30-head.js",
+      "last": "nodes/32-last.js",
+      "throttle": "nodes/40-throttle.js",
+      "rate-limit": "nodes/42-rate-limit.js",
+      "retime": "nodes/44-retime.js",
+      "concat": "nodes/50-concat.js",
+      "merge": "nodes/52-merge.js",
+      "otherwise": "nodes/54-otherwise.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Streampunk/node-red-contrib-dynamorse-fitting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Streampunk/node-red-contrib-dynamorse-fitting/issues"
+  },
+  "homepage": "https://github.com/Streampunk/node-red-contrib-dynamorse-fitting#readme"
+}
