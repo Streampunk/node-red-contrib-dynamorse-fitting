@@ -1,11 +1,11 @@
 {
   "name": "node-red-contrib-dynamorse-fitting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dynamorse nodes for Node-RED that provide utilities for manipulating streams",
   "author": "Streampunk Media Ltd",
   "license": "Apache-2.0",
   "keywords": [
-    "Node-RED"
+    "node-red"
   ],
   "dependencies": {
   },
