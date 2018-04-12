@@ -7,10 +7,9 @@
   "keywords": [
     "node-red"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tape": "^4.9.0"
   },
   "scripts": {
     "test": "tape test/*Spec.js"
